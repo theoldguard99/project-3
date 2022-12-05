@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-complete {
+  margin-left: 10px;
+}
+
+.button-delete {
+  margin-right: 10px;
+}
+
+.list-container {
+  min-width: 450px;
+  min-height: 650px;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 3px 6px 40px;
+}
+
+.Task {
+  width: 100%;
+  margin: 2rem auto;
+  box-sizing: border-box;
+  border: 2px #eee;
+  box-shadow: 0 1px 2px 3px #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.todo-list {
+  display: flex;
+  margin: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.task-input {
+  outline: none;
+  width: 65%;
+  padding: 15px;
+  margin-right: 25px;
+  margin-top: 25px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.button-add {
+  width: 70px;
+  padding: 15px 15px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.todo-list {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.list {
+  width: 220px;
+  border: none;
+  font-size: 14px;
+  padding: 10px 10px 10px 10px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+
